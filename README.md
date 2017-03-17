@@ -8,7 +8,7 @@ Else the normal browser behaviour will be done.
 As modifier-keys are used ctrl, shift, alt and the mac-cmd
 
 ```jsx
-  <LinkTo href="/path/to/something" onClick={this.doSomethingElse}>
-    Text to click
-  </LinkTo>
+<LinkTo href="/path/to/something" onClick={this.doSomethingElse.bind(this)}>
+  Text to click
+</LinkTo>
 ```
