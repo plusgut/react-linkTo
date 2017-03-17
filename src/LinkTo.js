@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class LinkTo extends Component {
   /**
    * when no modifier, the normal browser-behaviour should be stopped and custom logic executed
-   * 
+   *
    * @param {MouseEvent} event
    */
   handleClick(event) {
@@ -25,7 +25,7 @@ class LinkTo extends Component {
 
   /**
    * overwriting this function may be useful, for making history.pushState
-   * 
+   *
    * @param {MouseEvent} event
    */
   triggerCallback(event) {
@@ -34,7 +34,7 @@ class LinkTo extends Component {
 
   /**
    * generates an a tag with its content
-   * 
+   *
    */
   render() {
     return (
