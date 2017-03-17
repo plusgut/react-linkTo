@@ -1,0 +1,22 @@
+{
+  "name": "react-linkto",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Carlo Jeske"
+  },
+  "description": "generates an a-tag, which triggers the onclick only if no modifier-key is active. else it will not do the preventDefault",
+  "keywords": [
+    "react",
+    "component",
+    "linkTo"
+  ],
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "main": "src/LinkTo.js"
+}
