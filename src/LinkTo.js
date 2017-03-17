@@ -23,7 +23,7 @@ class LinkTo extends Component {
   /**
    * overwriting this function may be useful, for making history.pushState
    */
-  triggerCallback() {
+  triggerCallback(event) {
     this.props.onClick(event);
   }
 
